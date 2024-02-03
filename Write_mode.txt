@@ -1,0 +1,4 @@
+Hello Write modei am learning file handling
+if you dont give \n then content will be in single line!using append mode in file handling
+append mode will preserve previous data on file 
+ that is ...single line! now in r+ mode write mode will work as append mode.
