@@ -1,13 +1,16 @@
 '''
-->self is the instance variable. you can give any name
+->self.xyz is the instance variable. you can give any name
      Self is not a keyword  it can be anything. 
      The first we are writing is constructor is 
      called as (instance variable)
     We can give anytime instead of self
     
-->if method is accessing instance variable then that method becomes instance method
+->if method is accessing instance variable(self) then that method becomes instance method
+->if method is accessing class/static varibale then that method becames classmethod. it is define by @classmethod decorator.
+->if method is not accessing any instance variable or class variable then that method becames staticmethod. it is defined by staticmethod decorater.
+
 In python there are different types of variables and methods:
-    Variables: Instance variable  Static variable
+    Variables: Instance variable  Static/class variable
     Methods:  Instance method  Class method  Static method
 '''
 

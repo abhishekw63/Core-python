@@ -7,3 +7,11 @@ for x in l1:
         print('found:',x)
     else:
         pass
+    
+#try this
+# l1=['pizza','hotdog','nuggets','noodles','burger','french fries']
+
+# char=input('enter the char:')
+
+# ans=[item for item in l1 if item[0].startswith(char)]
+# print(ans)

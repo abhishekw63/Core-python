@@ -6,6 +6,12 @@
 ->python is having method overloading implicitly.
     We dont have to write multiple methods with the same name
     but the single method can behave in different type of method.
+    
+->python doesnot support method overloading directly.
+-> Method overloading means a class can have multiple methods with the same name, but each method performs a different task or accepts a different set of parameters.
+->Method overriding means Redefining the method of base class in derived class.
+->i would like to explain with example,
+    If the math class has two methods named add – one that takes an integer argument and another that takes a float argument – it would be an example of method overloading. 
 '''
 
 '''class Arithmatic:

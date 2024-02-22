@@ -10,3 +10,9 @@ for x in l1:
         l2.append(temp)
 
 print(l2)
+
+# l1=input('enter the alphabets:').split()
+# from collections import Counter
+
+# ans=dict(Counter(l1))
+# print(ans)

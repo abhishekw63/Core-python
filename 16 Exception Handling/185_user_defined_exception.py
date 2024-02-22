@@ -1,6 +1,7 @@
 '''
 ->Creating our own error class:
-    have a look at hierarchy. Parent class is base class then exception then arithmatic and goes on.
+    have a look at hierarchy.
+    Parent class is base class then exception then arithmatic and goes on.
     better to create from inheriting exception class.
 '''
 

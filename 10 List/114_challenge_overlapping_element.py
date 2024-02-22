@@ -8,3 +8,10 @@ for x in input1:
 
 print((l3))
      
+# {5, 6, 7}  
+# l1=list(range(1,11))
+# l2=[5,6,7]
+# set_l1=set(l1)
+# set_l2=set(l2)
+# set_final=set_l1.intersection(l2)
+# print(set_final)

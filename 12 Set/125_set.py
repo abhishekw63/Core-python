@@ -14,3 +14,6 @@ s2.add('add')
 print(s2) #append extend and insert for list
 print(dir(list))
 
+t1=list(range(10,21))
+t1.insert(0,100)
+print(t1)

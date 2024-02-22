@@ -8,8 +8,8 @@ print('division of {2} and {1} is {0}'.format(c,b,a))
 
 print('\u2794 division of {2} and {1} is {0}'.format(c,b,a))
 print('\u2794 division of {0:10} and {1:5} is {2:20}'.format(a,b,c))
-print('\u2794 division of {0:<10} and {1:<10} is {2:<20}.'.format(a,b,c))
-print('\u2794 division of {0:>10} and {1:^10} is {2:>20}.'.format(a,b,c))
+print('\u2794 division of {0:<10} and {1:<10} is {2:<20}.'.format(a,b,c))#RHS space
+print('\u2794 division of {0:>10} and {1:^10} is {2:>20}.'.format(a,b,c))#LHS SPACE
 
 print('\u2794 division of {0:<10} and {1:<10} is {2:2F}.'.format(a,b,c))
 print('\u2794 division of {0:<10} and {1:<10} is {2:2E}.'.format(a,b,c))

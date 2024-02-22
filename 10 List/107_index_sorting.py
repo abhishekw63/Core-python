@@ -1,6 +1,6 @@
 #sort(key=none,reverse=True)
 #sorted(iterable, key=None, reverse=False)
-#index(x)
+#index(x)  index(value,start,stop)
 #count(X)
 #reverse()
 

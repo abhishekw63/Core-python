@@ -1,6 +1,26 @@
 '''
 ->Inheritance is acquiring features in a (derived)class from an existing (base) class.
 ->The main advantage of Inheritance is reusability of code.
+->There are primarily 5 types of inheritance:
+    Single Inheritance:
+        A subclass inherits from only one superclass.
+
+    Multiple Inheritance:
+        A subclass inherits from more than one superclass.
+        Example: class Subclass(Superclass1, Superclass2):
+
+    Multilevel Inheritance:
+        A subclass inherits from another subclass, creating a chain of inheritance.
+        Example: class Subclass1(Superclass): and class Subclass2(Subclass1):
+        
+    Hierarchical Inheritance:
+        Multiple subclasses inherit from a single superclass.
+        for understanding purpose it creates pyramid like shape of classes.
+        Example: class Subclass1(Superclass): and class Subclass2(Superclass):
+
+    Hybrid (or Mixed) Inheritance:
+        Combination of two or more types of inheritance within a single program.
+        
 ->Base Class:'object' In Python, object is the base class for all classes.
     It is the root of the class hierarchy.
     Even if you don't explicitly mention it,

@@ -12,4 +12,5 @@ print('----------------------------')
 
 file_handler=open('MyData.txt','r') 
 print(file_handler.read(6))
-print(file_handler.read(10)) #wont start from beginning. file pointer preserved its position
+print(file_handler.read(10)) 
+#wont start from beginning.file pointer preserved its position

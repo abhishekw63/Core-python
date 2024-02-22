@@ -13,3 +13,14 @@ for i in range(3):
 
 print(l3)
 
+
+# sum=[]
+
+# for i in range(len(l1)):
+#     temp=[]
+#     for j in range(len(l1[0])):
+#         s=l1[i][j]+l2[i][j]
+#         temp.append(s)
+#     sum.append(temp)
+    
+# print(sum)

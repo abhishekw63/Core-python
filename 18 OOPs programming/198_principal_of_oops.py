@@ -2,10 +2,14 @@
 ->oops:paradigm for developing appn.(paradigm:methodology or stratergy to dev appn/style of programme)
 ->Encaspsulation,Abstraction,Inheritance,Polyorphism:these principals must be followed by any oop lang.
 ->Enc.:means combining all the related things together.
+    -The path function is used to encapsulate the URL patterns.
 ->Abs.:means showing required features and hiding internal details.
+    -in django name='index' parameter work as lelvel of abstraction.
 ->Inhe.: inheriting the features of existing class.
+    -from djanfo.views.generic import view
 ->Poly.:one name and different actions .
     By using a single item we can refer multiple things together.
+    for example cat and dog class is inheriting from animal class which has speak method. cat and dog object can call speak method with different output
 
 ----Continuation of lecture 199:classes vs object
 ->object is instance of class.it is behave by properties and attribute of class
@@ -23,7 +27,7 @@ class cuboid:
         print(id(self))
         self.length=l #self.l/,b/,h->instance variable. self->instance reference
         self.breadth=b
-        self.height=h
+        self.height=h #it is encapsulated
     def volume(self): #volume->instance method 
         return self.length*self.breadth*self.height
     def total_area(self):
@@ -48,3 +52,22 @@ print('c2 id',id(c2))
         so what is pass there c1 itself is pass there.i.e same object is passed
 '''
 
+'''from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius ** 2
+
+my_circle = Circle(radius=5)
+print(f"Circle Area: {my_circle.area()}")
+
+An abstract base class is a class that cannot be instantiated, and it is meant to be subclassed by other classes. The Shape class declares an abstract method area, which means any concrete subclass must provide its own implementation of the area method.
+'''

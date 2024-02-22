@@ -1,5 +1,6 @@
 '''
-->Polymorphism means One name different actions
+->Polymorphism means One name different actions OR one name many forms.
+    By using a single object we can refer multiple things.
 ->Polymorphism allows objects of different types to be treated as objects of a common type.
     In your example, both Dog and Penguin classes have a talk method, and they are both passed to the petlover function.
 

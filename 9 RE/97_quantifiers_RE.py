@@ -1,3 +1,10 @@
+'''
+->Regular expressions (regex or regexp) are used for pattern matching and text manipulation. 
+->They provide a concise and flexible way to search, match, and manipulate strings based on specific patterns.
+->In Python, we have to import re module for using Regular Expressions.
+'''
+
+
 from re import *
 
 #c=match('abhishek','abhishe').group() #only abhishek search would work
@@ -27,11 +34,18 @@ from re import *
 c=match('[abhi]{2}','hiab').group() #only first two would searched
 print(c)
 
-'''
-Regular expressions (regex or regexp) are a powerful tool for pattern matching and text manipulation. 
-They provide a concise and flexible way to search, match, and manipulate strings based on specific patterns.
-In Python, the re module provides support for regular expressions.
-'''
+import re
+
+pattern = r"hello"
+text = "hello world"
+
+if re.search(pattern, text):
+    print("Match found!")
+else:
+    print("No match found!")
+
+
+
 
 
 

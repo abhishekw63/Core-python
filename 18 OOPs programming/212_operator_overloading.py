@@ -1,5 +1,5 @@
 '''
-->Operator Overloading is where operators  behave differently in different situations.
+->Operator Overloading is where operators behave differently in different situations.
 ->plus is working differently in different situation so here we are achieving pollymorphism
 ->10+5 (both are integers)
 ->10+6.8 (int and float)

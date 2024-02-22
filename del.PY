@@ -1,4 +1,11 @@
-l1=list(range(10,20))
 
-l1.reverse()
-print(l1)
+n=int(input('enter the terms:'))
+
+fib_series=[0,1]
+
+for i in range(1,n-1):
+    temp=fib_series[-1]+fib_series[-2]
+    fib_series.append(temp)
+
+print(fib_series)
+    

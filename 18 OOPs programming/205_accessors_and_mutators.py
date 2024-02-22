@@ -1,7 +1,7 @@
 '''
 ->These are the types of methods that can be written inside any class.
-->Accessor methods are useful for reading the property of a class of an object.
-->Mutator is used for writing and updating properties of class and its objects.
+->Accessor methods are used for reading the property of a class.
+->Mutator is used for writing and updating properties of class.
 ->So these methods can be called as reading and writing methods
 ->These methods are followed by object oriented programming
 ->it is like getter and setter function of cpp

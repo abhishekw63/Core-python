@@ -1,5 +1,5 @@
 '''
-->Redefining the method of parent class in child class is said as method overriding.
+->Redefining the method of base class in derived class is said as method overriding.
 ->In other words, the child class has access to the properes and funcons of the parent class method while also extending addional funcons of its own to the method.
 '''
 

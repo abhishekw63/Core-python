@@ -1,6 +1,8 @@
-#pop()
-#remove(x)
+#pop() will raise indexerror
+#remove(x) will raise valueerror
 #clear()
+#del
+ 
  
 l1=[5,6,7,8]
 print(l1.pop())

@@ -26,7 +26,7 @@ print('setdefault',d1.setdefault(103))
 print('get',d1.get(110)) #returns none
 d1.setdefault(110) # will add 110 key with none value
 print(d1)
- 
+
 d1.update({111:'ashish',112:'ritesh'})
 print(d1)
 

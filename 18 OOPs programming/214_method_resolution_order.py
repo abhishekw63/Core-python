@@ -1,10 +1,12 @@
 '''
-->it will show order how it is looking for method via inheritance.
+->The MRO is the order in which Python looks for a method in a class hierarchy. It follows the left-to-right, depth-first search order.
+->call .mro() method upon object.
 ->i.e. c->b->a if a has method show then order will be c->b->a->object(parent class by default)
+
+->->it will show order how it is looking for method via inheritance.
 ->need to recall those 4 figures from lecutres.
 ->python folllows left to right order.
-->Remember, the method resolution order is the order in which Python looks for a method in a class hierarchy. It follows the left-to-right, depth-first order
-->
+
 '''
 
 class a:

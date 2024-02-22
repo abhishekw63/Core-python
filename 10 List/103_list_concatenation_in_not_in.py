@@ -12,5 +12,5 @@ list5=[1,2,3]
 print(list5 *3)
 #print(list5 *1.5)
 
-print(2 in list5)
+print(2 in list5) 
 print(44 not in list5)

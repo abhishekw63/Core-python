@@ -27,3 +27,11 @@ print(l8)
 
 l9=input('enter the name separated by space:').split()
 print(l9)
+
+input_list=[(item) for item in input('nums:').split()]
+#nums:ab hi sh ek
+#['ab', 'hi', 'sh', 'ek']
+
+input_list=[(item) for item in input('nums:')]
+# nums:ab hi raj
+# ['a', 'b', ' ', 'h', 'i', ' ', 'r', 'a', 'j']
